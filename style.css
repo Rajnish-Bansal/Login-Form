@@ -1,0 +1,106 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+form>h2, form>h4{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;    
+    height: 680px;
+    margin: auto;
+    border-color: rgb(208, 211, 214);  
+    width: 1440px;
+    /* outline: auto; */
+}
+
+
+.input-email, .input-pass{
+    width: 300px;
+    height: 25px;
+    /* border: 1px solid; */
+    /* outline: auto; */
+}
+
+.login-container{
+    padding-left: 20px;
+    height: 100%;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* outline: auto; */
+    
+}
+
+.login-form{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    /* outline: auto; */
+}
+
+.forgot-pwd{
+    font-size: smaller;
+    margin: 0;
+   /* outline: auto; */
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    margin: auto;
+
+}
+.btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    background-color:rgb(60, 102, 230) ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 0px;
+}
+
+.register-div{
+    text-align: center;
+    /* outline: auto; */
+}
+
+
+#login-brand{
+    width: 50%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: auto; */
+}
+
+.design{
+    width: 38%;
+    height: 38%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    /* outline: auto; */
+}
+
+.pic{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
